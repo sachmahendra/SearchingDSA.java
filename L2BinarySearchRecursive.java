@@ -2,7 +2,6 @@ public class L2BinarySearchRecursive {
     static int bSearch(int arr[], int x,int low,int high){
         if(low>high) return -1;
         int mid = (low + high )/2;
-        if(mid==x)
         if(arr[mid]==x)
         return mid;
         else if(arr[mid]>x)
