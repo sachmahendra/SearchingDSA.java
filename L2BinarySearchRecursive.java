@@ -3,8 +3,9 @@ public class L2BinarySearchRecursive {
         if(low>high) return -1;
         int mid = (low + high )/2;
         if(mid==x)
+        if(arr[mid]==x)
         return mid;
-        else if(mid>x)
+        else if(arr[mid]>x)
         bSearch(arr, x, low, high = mid-1);
         else
         bSearch(arr, x, low = mid+1, high);
@@ -19,6 +20,6 @@ public class L2BinarySearchRecursive {
         int low=0;
         int n=5;
         int high = n-1;
-        System.out.println(bSearch(arr, x, low, high));
+        System.out.println("element x is found at index: "+bSearch(arr, x, low, high));
     }
 }
