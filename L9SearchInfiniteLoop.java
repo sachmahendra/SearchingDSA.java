@@ -1,6 +1,6 @@
 public class L9SearchInfiniteLoop {
 
-        static int bSearch(int arr[], int low, int high, int x)
+         static int bSearch(int arr[], int low, int high, int x)
 		{
 			if(low > high)
 				return -1;
