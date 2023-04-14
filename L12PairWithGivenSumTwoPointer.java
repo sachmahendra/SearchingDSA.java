@@ -1,3 +1,5 @@
+//FOR  SORTED ARRAY ONLY
+
 public class L12PairWithGivenSumTwoPointer {
     static boolean isPair(int arr[],int n, int x){
         int left = 0;
